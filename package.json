@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build-client": "webpack --config webpack.config.client.js",
     "build-server": "webpack --config webpack.config.server.js",
     "watch-client": "webpack --config webpack.config.client.js --watch",
@@ -43,6 +43,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@types/jest": "^26.0.15",
     "express": "^4.17.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
