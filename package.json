@@ -6,10 +6,9 @@
   "scripts": {
     "test": "jest",
     "build-client": "webpack --config webpack.config.client.js",
-    "build-server": "webpack --config webpack.config.server.js",
     "watch-client": "webpack --config webpack.config.client.js --watch",
     "watch-server": "webpack --config webpack.config.server.js --watch",
-    "start": "node-dev build/Server/server.js"
+    "start": "ts-node-dev src/Server/app.ts"
   },
   "author": "",
   "license": "ISC",
@@ -21,11 +20,13 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "@types/express": "^4.17.9",
+    "@types/jest": "^26.0.19",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router": "^5.1.8",
     "@types/react-router-dom": "^5.1.6",
     "babel-loader": "^8.2.1",
+    "dotenv": "^8.2.0",
     "eslint": "^7.14.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
@@ -34,20 +35,20 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^4.5.0",
     "jest": "^26.6.3",
-    "node-dev": "^6.2.0",
     "open": "^7.3.0",
     "ts-loader": "^8.0.11",
+    "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.2",
     "webpack": "^5.6.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@types/jest": "^26.0.15",
     "express": "^4.17.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "ts-node": "^9.1.1"
   }
 }
