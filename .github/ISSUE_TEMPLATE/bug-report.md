@@ -2,7 +2,7 @@
 name: Bug Report
 about: Create a Report to help us Improve Cocktai|ed|
 title: ''
-labels: bug
+labels: bug, not seen by team
 assignees: ''
 
 ---
@@ -36,3 +36,15 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional Context:**
 Add any other context about the problem here.
+
+**########### Do Not Fill Out ############**
+A member of the Cocktai|ed| team will fill out this section:
+
+**Scope:**
+A clear and concise description of deliverables, features, functions, tasks and/or deadlines.
+
+**Description:**
+A clear and concise description of what must be done to enable these deliverables.
+
+**Acceptance Criteria:**
+A clear and concise description of the minimum criteria required for this issue to be accepted.
