@@ -7,7 +7,6 @@
     "test": "jest",
     "build-client": "webpack --config webpack.config.client.js",
     "watch-client": "webpack --config webpack.config.client.js --watch",
-    "watch-server": "webpack --config webpack.config.server.js --watch",
     "start": "ts-node-dev src/Server/app.ts"
   },
   "author": "",
@@ -27,6 +26,7 @@
     "@types/react-router-dom": "^5.1.6",
     "babel-loader": "^8.2.1",
     "dotenv": "^8.2.0",
+    "dotenv-webpack": "^6.0.0",
     "eslint": "^7.14.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",

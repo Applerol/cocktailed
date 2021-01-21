@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "ES2017",
+		"target": "ES2018",
 		"outDir": "./dist/",
 		"strictNullChecks": true,
 		"moduleResolution": "node",
@@ -15,7 +15,7 @@
 			"ES2017.Object",
 			"DOM"
 		],
-		"module": "CommonJS",
+		"module": "commonjs",
 		"removeComments": true,
 		"alwaysStrict": true,
 		"allowUnreachableCode": false,
